@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="RestfulServices" uuid="b0cd7e41-54e6-4778-bcfb-2746c1515645" languageVersion="0" moduleVersion="0">
+<language namespace="RestfulServicesGraphic" uuid="e98a0495-5924-4760-8529-77cd1e8a76c7" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,10 +12,10 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="RestfulServices#01" uuid="d6b4f5aa-215e-44b5-a823-c0e315c74187">
+    <generator alias="main" namespace="RestfulServicesGraphic#01" uuid="f4eae8bb-c124-4ec0-829c-7288a48c5297">
       <models>
-        <modelRoot contentPath="${module}/generator/template" type="default">
-          <sourceRoot location="." />
+        <modelRoot contentPath="${module}/generator" type="default">
+          <sourceRoot location="templates" />
         </modelRoot>
       </models>
       <facets>
@@ -50,8 +50,8 @@
         <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
-        <module reference="b0cd7e41-54e6-4778-bcfb-2746c1515645(RestfulServices)" version="0" />
-        <module reference="d6b4f5aa-215e-44b5-a823-c0e315c74187(RestfulServices#01)" version="0" />
+        <module reference="e98a0495-5924-4760-8529-77cd1e8a76c7(RestfulServicesGraphic)" version="0" />
+        <module reference="f4eae8bb-c124-4ec0-829c-7288a48c5297(RestfulServicesGraphic#01)" version="0" />
         <module reference="67b3c41d-58b3-4756-b971-30bf8a9d63e6(jetbrains.jetpad)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="5a283d13-799d-4cf6-a6a7-5c3e11d79dcb(jetbrains.mps.lang.editor.diagram.runtime)" version="0" />
@@ -63,8 +63,8 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="true">5a283d13-799d-4cf6-a6a7-5c3e11d79dcb(jetbrains.mps.lang.editor.diagram.runtime)</dependency>
     <dependency reexport="true">9fc6ac35-295d-4fb8-8210-ba026790e4a0(jetbrains.mps.lang.editor.figures.library)</dependency>
+    <dependency reexport="false">b0cd7e41-54e6-4778-bcfb-2746c1515645(RestfulServices)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
@@ -99,7 +99,6 @@
     <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="17" />
     <language slang="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" version="9" />
     <language slang="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" version="0" />
-    <language slang="l:b83431fe-5c8f-40bc-8a36-65e25f4dd253:jetbrains.mps.lang.textGen" version="1" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" version="5" />
   </languageVersions>
@@ -112,6 +111,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="b0cd7e41-54e6-4778-bcfb-2746c1515645(RestfulServices)" version="0" />
+    <module reference="e98a0495-5924-4760-8529-77cd1e8a76c7(RestfulServicesGraphic)" version="0" />
     <module reference="67b3c41d-58b3-4756-b971-30bf8a9d63e6(jetbrains.jetpad)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />

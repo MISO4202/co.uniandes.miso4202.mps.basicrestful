@@ -4,6 +4,8 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/RestfulServices/RestfulServices.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/RestfulServices/sandbox/RestfulServices.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/RestfulServices.build/RestfulServices.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Tests/Tests.msd" folder="" />
     </projectModules>
   </component>
 </project>

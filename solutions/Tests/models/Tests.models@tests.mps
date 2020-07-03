@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7e8b8293-8a09-4f62-8ee8-6b8205be798e(RestfulServices.sandbox)">
+<model ref="r:08bd89c2-7a55-4d05-98c7-9382d58bcc86(Tests.models@tests)">
   <persistence version="9" />
   <languages>
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="b0cd7e41-54e6-4778-bcfb-2746c1515645" name="RestfulServices" version="0" />
   </languages>
   <imports />
@@ -47,8 +49,8 @@
     <property role="TrG5h" value="University" />
     <property role="3btxBj" value="3000" />
     <node concept="1jqD1W" id="3q0XBt_VcsZ" role="1jqD76">
-      <ref role="1jqD1_" node="3q0XBt_R8wF" resolve="Student" />
       <ref role="1jqD1B" node="3q0XBt_WqaU" resolve="getUserById" />
+      <ref role="1jqD1_" node="3q0XBt_R8wF" resolve="Student" />
     </node>
     <node concept="1jqD1W" id="3q0XBt_XNOn" role="1jqD76">
       <ref role="1jqD1B" node="3q0XBt_XNOf" resolve="getUsers" />
